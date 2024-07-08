@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/DemonIngester/LONGLEGS/static/css/main.79bda54f.css",
-    "main.js": "/DemonIngester/LONGLEGS/static/js/main.9c2f078a.js",
-    "index.html": "/DemonIngester/LONGLEGS/index.html",
-    "main.79bda54f.css.map": "/DemonIngester/LONGLEGS/static/css/main.79bda54f.css.map",
-    "main.9c2f078a.js.map": "/DemonIngester/LONGLEGS/static/js/main.9c2f078a.js.map"
+    "main.css": "/LONGLEGS/static/css/main.79bda54f.css",
+    "main.js": "/LONGLEGS/static/js/main.9c2f078a.js",
+    "index.html": "/LONGLEGS/index.html",
+    "main.79bda54f.css.map": "/LONGLEGS/static/css/main.79bda54f.css.map",
+    "main.9c2f078a.js.map": "/LONGLEGS/static/js/main.9c2f078a.js.map"
   },
   "entrypoints": [
     "static/css/main.79bda54f.css",
