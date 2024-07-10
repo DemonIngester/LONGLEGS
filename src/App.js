@@ -21,6 +21,13 @@ const App = () => {
     setInput(prevInput => prevInput.slice(0, -1));
   };
 
+  const handleChange = (e) => {
+    const newText = e.target.value;
+    if (!isCipher) {
+      setInput(newText);
+    }
+  };
+
   const vigenereEncrypt = (text, key) => {
     const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     let encryptedText = '';
@@ -111,7 +118,11 @@ const App = () => {
     <div className="app-container">
       <h2>LONGLEGS DECODER</h2>
       <div className="textarea-container">
-        <textarea value={input} readOnly />
+        {isCipher ? (
+          <textarea value={input} readOnly />
+        ) : (
+          <textarea value={input} onChange={handleChange} />
+        )}
       </div>
       <div className="buttons-container">
         <button onClick={toggleCipher}>
@@ -127,3 +138,5 @@ const App = () => {
 };
 
 export default App;
+
+
