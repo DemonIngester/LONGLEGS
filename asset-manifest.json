@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/LONGLEGS/static/css/main.79bda54f.css",
-    "main.js": "/LONGLEGS/static/js/main.ba93a1ab.js",
+    "main.js": "/LONGLEGS/static/js/main.0e1f2f7d.js",
     "index.html": "/LONGLEGS/index.html",
     "main.79bda54f.css.map": "/LONGLEGS/static/css/main.79bda54f.css.map",
-    "main.ba93a1ab.js.map": "/LONGLEGS/static/js/main.ba93a1ab.js.map"
+    "main.0e1f2f7d.js.map": "/LONGLEGS/static/js/main.0e1f2f7d.js.map"
   },
   "entrypoints": [
     "static/css/main.79bda54f.css",
-    "static/js/main.ba93a1ab.js"
+    "static/js/main.0e1f2f7d.js"
   ]
 }
